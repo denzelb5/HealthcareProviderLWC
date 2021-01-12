@@ -1,0 +1,47 @@
+<template>
+  <lightning-card
+          title="Ipd Provider List"
+          icon-name="standard:search"
+          class="slds--around_medium"
+  >
+      <div class="slds-box slds-theme_default">
+          <lightning-input
+                  label="Search Term"
+                  variant="label-hidden"
+                  placeholder="Search by name, phone, website, or address"
+                  type="text"
+                  value={ipdSearchTerm}
+                  onchange={handleIpdSearchTermChange}
+          >
+          </lightning-input>
+      </div>
+      <div class="slds-m-around_small">
+        <lightning-datatable
+          key-field="id"
+          data={ipdProviders}
+          columns={cols}
+          onrowaction={handleIpdRowAction}
+          hide-checkbox-column="true"
+        >
+        </lightning-datatable>
+      </div>
+      <!-- <div class="slds-m-around_small">
+          <template if:true={ipdProviders}>
+              <template for:each={ipdProviders} for:item="ipdProvider">
+                  <c-ipd-provider-list-line-item key={ipdProvider.Id} ipdprovider={ipdProvider} >
+
+                  </c-ipd-provider-list-line-item>
+              </template> 
+          </template>
+              
+      </div> -->
+                 <!-- <template if:true={error}>
+                    <c-error-panel errors={error}></c-error-panel> -->
+               <!-- </template> --> 
+    
+
+
+      
+  </lightning-card>
+
+</template>

@@ -1,0 +1,27 @@
+<template>
+  <div class="c-container">
+      <lightning-layout multiple-rows="true">
+          <lightning-layout-item padding="around-small" size="12">
+              <lightning-layout>
+                  <lightning-layout-item padding="around-small" size="6">
+                      <div class="slds-box slds-theme_default">
+                          <c-provider-list 
+                            onnewsearch={handleNewSearch}
+                            onsearchcomplete={handleSearchComplete}>
+                          </c-provider-list>
+                          
+                      </div>
+                  </lightning-layout-item>
+                  <lightning-layout-item padding="around-small" size="6">
+                      <div class="slds-box slds-theme_default">
+                        <c-ipd-provider-list>
+                            onnewsearch={handleNewIpdSearch}
+                            onsearchcomplete={handleIpdSearchComplete}
+                        </c-ipd-provider-list>
+                      </div>
+                  </lightning-layout-item>
+              </lightning-layout>
+          </lightning-layout-item>
+      </lightning-layout>
+  </div>
+</template>

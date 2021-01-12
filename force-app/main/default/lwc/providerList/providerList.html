@@ -1,0 +1,50 @@
+<template>
+  <lightning-card
+          title="Provider List"
+          icon-name="standard:search"
+          class="slds--around_medium"
+  >
+      <div class="slds-box slds-theme_default">
+          <lightning-input
+                  label="Search Term"
+                  variant="label-hidden"
+                  placeholder="Search by name, phone, website, or address"
+                  type="text"
+                  value={searchTerm}
+                  onchange={handleSearchTermChange}
+          >
+          </lightning-input>
+      </div>
+      <div class="slds-m-around_small">
+        <lightning-datatable
+          key-field="id"
+          data={providers}
+          columns={cols}
+          onrowaction={handleRowAction}
+          hide-checkbox-column="true"
+        >
+        </lightning-datatable>
+      </div>
+      <!-- <template if:true={error}>
+        <c-error-panel errors={error}></c-error-panel>
+      </template> -->
+      <!-- <div class="slds-m-around_small">
+          <template if:true={providers}>
+              <template for:each={providers} for:item="provider">
+                  <c-provider-list-item key={provider.Id} provider={provider} >
+
+                  </c-provider-list-item>
+              </template> 
+          </template>
+              <h1>This is the provider list component</h1>
+      </div> -->
+      <!--            <template if:true={error}>-->
+      <!--                <c-error-panel errors={error}></c-error-panel>-->
+      <!--            </template>-->
+      <!--          -->
+
+
+      
+  </lightning-card>
+
+</template>

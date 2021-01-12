@@ -1,0 +1,40 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "IPD_Provider__c",
+                "referenceId": "IPD_Provider__cRef1"
+            },
+            "First_Name__c": "Mike",
+            "Last_Name__c": "Williams",
+            "Gender__c": "Male",
+            "S__c": "Pediatric Chiropractor",
+            "NPI_Number__c": "1234567891",
+            "Type__c": "Chiropractor"
+        },
+        {
+            "attributes": {
+                "type": "IPD_Provider__c",
+                "referenceId": "IPD_Provider__cRef2"
+            },
+            "First_Name__c": "Michelle",
+            "Last_Name__c": "Wilson",
+            "Gender__c": "Female",
+            "S__c": "Clinical Neurophysiology",
+            "NPI_Number__c": "1234567892",
+            "Type__c": "Clinical Medical Laboratory"
+        },
+        {
+            "attributes": {
+                "type": "IPD_Provider__c",
+                "referenceId": "IPD_Provider__cRef3"
+            },
+            "First_Name__c": "Steve",
+            "Last_Name__c": "Ladd",
+            "Gender__c": "Male",
+            "S__c": "Dental",
+            "NPI_Number__c": "1234567893",
+            "Type__c": "Dentist"
+        }
+    ]
+}
