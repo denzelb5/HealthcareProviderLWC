@@ -1,0 +1,57 @@
+{
+  "ipdContacts": [
+    {
+      "Id": "4",
+      "FirstName": "DAVID",
+      "LastName": "WIEBE",
+      "Birthdate": "01/21/1957",
+      "Title": "Doctor",
+      "Gender": "Male",
+      "ProviderNPI": "1234567980",
+      "Specialty": "Pediatrics"
+    },
+    {
+      "Id": "003S000001TGcSZIA1",
+      "FirstName": "Sarah",
+      "LastName": "Smith",
+      "Birthdate": "02/13/1972",
+      "Title": "Director of Pulmonology",
+      "Gender": "Female",
+      "ProviderNPI": "1234567981",
+      "Specialty": "Pulmonology"
+    },
+    {
+      "Id": "1",
+      "FirstName": "Mike",
+      "LastName": "Williams",
+      "Birthdate": "12/12/1986",
+      "Title": "",
+      "Gender": "Male",
+      "ProviderNPI": "1234567891",
+      "Specialty": "Chiropractor"
+      
+    },
+    {
+        "Id": "2",
+        "FirstName": "Michelle",
+        "LastName": "Wilson",
+        "Birthdate": "11/12/1986",
+        "Title": "Lab Technician",
+        "Gender": "Female",
+        "ProviderNPI": "1234567892",
+        "Specialty": "Clinical Neurophysiology"
+        
+    },
+    {
+        "Id": "3",
+        "FirstName": "Steve",
+        "LastName": "Ladd",
+        "Birthdate": "10/12/1976",
+        "Title": "Dentist",
+        "Gender": "Male",
+        "ProviderNPI": "1234567893",
+        "Specialty": "Dental"
+        
+    }
+  ]
+}
